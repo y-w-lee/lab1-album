@@ -1,0 +1,51 @@
+.main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lexend', sans-serif; 
+  background-color: rgb(209, 224, 253);
+}
+
+.imgAlbumContainer {
+  display: flex; 
+  gap: 2rem;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.albumSection {
+  margin-left: 2rem;
+}
+
+.h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(46, 46, 90);
+}
+
+.h2 {
+  font-size: 2rem;
+  color: rgb(88, 88, 163);
+}
+
+.details {
+  margin-top: 20px;
+  margin-left: 2rem;
+  border-bottom: 2px solid salmon;
+  gap: 4rem;
+}
+
+.summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.ol {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: rgb(118, 58, 132);
+}
